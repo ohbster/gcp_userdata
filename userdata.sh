@@ -15,7 +15,7 @@ Instance ID: $(curl "http://metadata.google.internal/computeMetadata/v1/instance
 Project ID: echo $(curl "http://metadata.google.internal/computeMetadata/v1/project/project-id" -H "Metadata-Flavor: Google")
 
 <br/>
-Zone ID: echo $(curl "http://metadata.googe.internal/computeMetadata/v1/instance/zone" -H "Metadata-Flavor: Google")
+Zone ID: echo $(curl "http://metadata.google.internal/computeMetadata/v1/instance/zone" -H "Metadata-Flavor: Google")
 
 
 </body></html>
