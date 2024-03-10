@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt install -y nginx
+apt install -y nginx
 cat <<EOF > /var/www/html/index.html
 <html><body>
 <h1>Hello, Class 5.5</h1>
